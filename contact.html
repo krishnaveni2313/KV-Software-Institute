@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>KV Software Institute | Contact</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar">
+      <a class="logo" href="index.html">KV Software Institute</a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">☰</button>
+      <div class="nav-links" id="navLinks">
+        <a href="index.html">Home</a>
+        <a href="courses.html">Courses</a>
+        <a href="placements.html">Placements</a>
+        <a href="contact.html">Contact</a>
+        <a class="login-link" href="login.html" id="loginStatus">Login</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="page-main">
+    <section class="contact-layout">
+      <div class="contact-info reveal">
+        <p class="eyebrow">Contact Us</p>
+        <h1>KV Software Institute</h1>
+        <p>Chennai, Tamil Nadu, India</p>
+        <p><strong>Phone:</strong> +91 98765 43210</p>
+        <p><strong>Email:</strong> info@kvsoftwareinstitute.com</p>
+        <iframe title="KV Software Institute Location" src="https://www.google.com/maps?q=Chennai,Tamil%20Nadu&output=embed" loading="lazy"></iframe>
+      </div>
+      <form class="contact-form reveal" id="contactForm">
+        <h2>Send a Message</h2>
+        <label>Name<input type="text" required placeholder="Your name" /></label>
+        <label>Email<input type="email" required placeholder="Your email" /></label>
+        <label>Phone<input type="tel" required placeholder="Your phone number" /></label>
+        <label>Message<textarea rows="5" required placeholder="Tell us what you want to learn"></textarea></label>
+        <button class="btn btn-primary" type="submit">Submit</button>
+      </form>
+    </section>
+  </main>
+
+  <a class="whatsapp-float" href="https://wa.me/919876543210" target="_blank" aria-label="Chat on WhatsApp">WA</a>
+  <footer class="footer"><p>© 2026 KV Software Institute.</p></footer>
+  <script src="script.js"></script>
+</body>
+</html>
