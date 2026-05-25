@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>KV Software Institute | Login</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar">
+      <a class="logo" href="index.html">KV Software Institute</a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">☰</button>
+      <div class="nav-links" id="navLinks">
+        <a href="index.html">Home</a>
+        <a href="courses.html">Courses</a>
+        <a href="placements.html">Placements</a>
+        <a href="contact.html">Contact</a>
+        <a class="login-link" href="login.html" id="loginStatus">Login</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="auth-page">
+    <section class="auth-card reveal">
+      <p class="eyebrow">Student Login</p>
+      <h1>Access Course Details</h1>
+      <p>Use this demo login to unlock syllabus, fees, trainer, and placement details.</p>
+      <form id="loginForm">
+        <label>Email
+          <input type="email" id="email" placeholder="student@example.com" required />
+        </label>
+        <label>Password
+          <input type="password" id="password" placeholder="Enter any password" required />
+        </label>
+        <button class="btn btn-primary" type="submit">Login</button>
+      </form>
+      <p class="form-note">Demo: any email and password will work.</p>
+      <button class="text-button" id="logoutButton" type="button">Logout</button>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
